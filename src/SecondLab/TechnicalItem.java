@@ -22,7 +22,7 @@ public class TechnicalItem extends GenericItem implements Cloneable {
 
     @Override
     public void printAll() {
-        System.out.printf("ID: %d , Name: %-20s , price:%5.2f , AnalogID: %d , Category: %-7s \n", ID, name, price, analog, category);
+        System.out.printf("ID: %d , Name: %-10s , price:%5.2f , AnalogID: %d , Category: %-7s \n", ID, name, price, analog, category);
         System.out.println("Warranty Time: " + warrantyTime);
     }
 
@@ -32,14 +32,14 @@ public class TechnicalItem extends GenericItem implements Cloneable {
         return this.ID == newobj.ID
                 && this.name.equals(newobj.name)
                 && this.price == newobj.price
-                && this.analog.equals(newobj.analog)
+                && (this.analog == null ? newobj.analog == null : this.analog.equals(newobj.analog))
                 && this.category.equals(newobj.category)
                 && this.warrantyTime == newobj.warrantyTime;
     }
 
     @Override
     protected Object clone() {
-        return new TechnicalItem(this);
+        return this.analog;
     }
 
     @Override
