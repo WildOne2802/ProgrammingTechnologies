@@ -3,21 +3,26 @@ package SecondLab;
 public class TechnicalItem extends GenericItem implements Cloneable {
     protected short warrantyTime;
 
-    public TechnicalItem(int ID, String name, float price, GenericItem analog, Category category, short warrantyTime) {
-        this.ID = ID;
+    public TechnicalItem() {
+    }
+
+    public TechnicalItem(String name, float price, GenericItem analog, Category category, short warrantyTime) {
         this.name = name;
         this.price = price;
         this.analog = analog;
         this.category = category;
         this.warrantyTime = warrantyTime;
+
+        this.ID = GenericItem.currentID++;
     }
 
     public TechnicalItem(TechnicalItem obj) {
-        this.ID = obj.ID;
         this.name = obj.name;
         this.price = obj.price;
         this.analog = obj.analog;
         this.category = obj.category;
+
+        this.ID = GenericItem.currentID++;
     }
 
     @Override

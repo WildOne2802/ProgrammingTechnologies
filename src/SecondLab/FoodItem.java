@@ -6,24 +6,29 @@ public class FoodItem extends GenericItem implements Cloneable {
     protected Date dateOfIncome;
     protected short expires;
 
-    public FoodItem(int ID, String name, float price, GenericItem analog, Category category, Date dateOfIncome, short expires) {
-        this.ID = ID;
+    public FoodItem() {
+    }
+
+    public FoodItem(String name, float price, FoodItem analog, Date dateOfIncome, short expires) {
         this.name = name;
         this.price = price;
         this.analog = analog;
-        this.category = category;
         this.dateOfIncome = dateOfIncome;
         this.expires = expires;
+
+        this.ID = GenericItem.currentID++;
     }
 
-    public FoodItem(FoodItem obj) {
-        this.ID = obj.ID;
-        this.name = obj.name;
-        this.price = obj.price;
-        this.analog = obj.analog;
-        this.category = obj.category;
-        this.dateOfIncome = obj.dateOfIncome;
-        this.expires = obj.expires;
+    public FoodItem(String name, float price, short expires) {
+        this(name, price, null, new Date(2020, 1, 1), expires);
+
+        this.ID = GenericItem.currentID++;
+    }
+
+    public FoodItem(String name) {
+        this(name, 50.0f, null, new Date(2020, 1, 1), (short) 3);
+
+        this.ID = GenericItem.currentID++;
     }
 
     @Override
