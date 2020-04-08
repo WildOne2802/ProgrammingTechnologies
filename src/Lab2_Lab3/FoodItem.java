@@ -21,14 +21,10 @@ public class FoodItem extends GenericItem implements Cloneable {
 
     public FoodItem(String name, float price, short expires) {
         this(name, price, null, new Date(2020, 1, 1), expires);
-
-        this.ID = GenericItem.currentID++;
     }
 
     public FoodItem(String name) {
         this(name, 50.0f, null, new Date(2020, 1, 1), (short) 3);
-
-        this.ID = GenericItem.currentID++;
     }
 
     @Override
