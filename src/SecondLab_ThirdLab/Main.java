@@ -1,4 +1,4 @@
-package SecondLab;
+package SecondLab_ThirdLab;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package SecondLab;
+package SecondLab_ThirdLab;
 
 public class TechnicalItem extends GenericItem implements Cloneable {
     protected short warrantyTime;

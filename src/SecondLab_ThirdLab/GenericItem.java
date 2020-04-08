@@ -1,4 +1,4 @@
-package SecondLab;
+package SecondLab_ThirdLab;
 
 public class GenericItem implements Cloneable {
     protected int ID;
