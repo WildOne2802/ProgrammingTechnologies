@@ -1,4 +1,4 @@
-package Lab2_Lab3;
+package Lab2_Lab3_Lab4.ru.billing.stocklist;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ public class ItemCatalog {
             new ArrayList<GenericItem>();
 
     public void addItem(GenericItem item) {
-        catalog.put(item.ID, item);
+        catalog.put(item.getID(), item);
         ALCatalog.add(item);
     }
 
@@ -26,7 +26,7 @@ public class ItemCatalog {
 
     public GenericItem findItemByIDAL(int id) {
         for (GenericItem i : ALCatalog) {
-            if (i.ID == id) return i;
+            if (i.getID() == id) return i;
         }
         return null;
     }

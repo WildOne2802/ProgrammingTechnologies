@@ -1,4 +1,8 @@
-package Lab2_Lab3;
+package Lab2_Lab3_Lab4.ru.billing.client;
+
+import Lab2_Lab3_Lab4.ru.billing.stocklist.FoodItem;
+import Lab2_Lab3_Lab4.ru.billing.stocklist.GenericItem;
+import Lab2_Lab3_Lab4.ru.billing.stocklist.ItemCatalog;
 
 import java.util.Date;
 
@@ -36,17 +40,27 @@ public class Main {
         ItemCatalog catalog = new ItemCatalog();
 
         FoodItem f1 = new FoodItem("f1");
+        catalog.addItem(f1);
         FoodItem f2 = new FoodItem("f2");
+        catalog.addItem(f2);
         FoodItem f3 = new FoodItem("f3");
+        catalog.addItem(f3);
         FoodItem f4 = new FoodItem("f4");
+        catalog.addItem(f4);
         FoodItem f5 = new FoodItem("f5");
+        catalog.addItem(f5);
         FoodItem f6 = new FoodItem("f6");
+        catalog.addItem(f6);
         FoodItem f7 = new FoodItem("f7");
+        catalog.addItem(f7);
         FoodItem f8 = new FoodItem("f8");
+        catalog.addItem(f8);
         FoodItem f9 = new FoodItem("f9");
+        catalog.addItem(f9);
         FoodItem f10 = new FoodItem("f10");
+        catalog.addItem(f10);
 
-        System.out.println(GenericItem.currentID);
+        System.out.println(GenericItem.getCurrentID());
 
         long begin = new Date().getTime();
 
@@ -65,6 +79,10 @@ public class Main {
         end = new Date().getTime();
 
         System.out.println("In ArrayList: " + (end - begin));
+
+        CatalogLoader loader = new CatalogStubLoader();
+        loader.load(catalog);
+        catalog.printItems();
 
     }
 }
