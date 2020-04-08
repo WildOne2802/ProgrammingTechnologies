@@ -15,7 +15,8 @@ public class U0901Main {
 //        }
 
         U0901WorkArray<Integer> insWorkArrayInt = new U0901WorkArray<Integer>(intArr);
-        U0901WorkArray<Float> insWorkArrayFloat=new U0901WorkArray<Float>(floatArr);
-
+        U0901WorkArray<Float> insWorkArrayFloat = new U0901WorkArray<Float>(floatArr);
+        System.out.println("Float sum: " + insWorkArrayFloat.sum());
+        System.out.println("Integer sum: " + insWorkArrayInt.sum());
     }
 }
