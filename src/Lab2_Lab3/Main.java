@@ -3,8 +3,7 @@ package Lab2_Lab3;
 import java.util.Date;
 
 public class Main {
-    public static void main(String[] args) throws CloneNotSupportedException {
-
+    public static void main(String[] args) {
 
 //        GenericItem[] Array = new GenericItem[4];
 //        Array[0] =
