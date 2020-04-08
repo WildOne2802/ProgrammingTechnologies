@@ -1,7 +1,7 @@
-package FirstLab;
+package Lab1;
 
 /**
- * This is FirstLab.Main java
+ * This is Lab1.Main java
  * Starting project
  */
 public class Main {

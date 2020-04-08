@@ -1,4 +1,4 @@
-package FirstLab.Third;
+package Lab1._3;
 
 public class Count {
     public static void main(String[] args) {

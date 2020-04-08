@@ -1,4 +1,4 @@
-package FirstLab.Fifth;
+package Lab1._5;
 
 public class MyArrays {
     public static void main(String[] args) {

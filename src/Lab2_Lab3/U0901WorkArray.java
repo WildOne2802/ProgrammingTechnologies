@@ -1,4 +1,4 @@
-package SecondLab_ThirdLab;
+package Lab2_Lab3;
 
 public class U0901WorkArray<T extends Number> {
     T[] arrNums;
