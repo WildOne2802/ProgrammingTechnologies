@@ -1,5 +1,6 @@
 package Lab2_Lab3_Lab4;
 
+import java.io.IOException;
 import java.util.function.Supplier;
 
 public class U0901WorkArray<T extends Number> {
@@ -15,14 +16,17 @@ public class U0901WorkArray<T extends Number> {
             throw new RuntimeException();
         });
 
-        Long l = (Long) executeSafe(() -> 12220L+130020200L);
+        Long l = (Long) executeSafe(() -> 12220L + 130020200L);
 
         System.out.println(l);
+
+        executeSafe(() -> {
+            throw new ClassCastException();
+        });
 
         String str = executeSafe(() -> "hello world").toString();
 
         System.out.println(str);
-
 
     }
 
@@ -38,7 +42,7 @@ public class U0901WorkArray<T extends Number> {
         try {
             return x.get();
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
             return null;
         }
     }
