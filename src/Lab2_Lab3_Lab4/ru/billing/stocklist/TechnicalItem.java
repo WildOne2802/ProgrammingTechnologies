@@ -51,8 +51,8 @@ public class TechnicalItem extends GenericItem implements Cloneable {
     }
 
     @Override
-    protected Object clone() {
-        return this.getAnalog();
+    public Object clone() {
+        return super.clone();
     }
 
     @Override

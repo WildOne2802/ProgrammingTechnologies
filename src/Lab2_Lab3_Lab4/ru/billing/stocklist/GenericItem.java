@@ -80,8 +80,8 @@ public class GenericItem implements Cloneable {
         this.ID = GenericItem.currentID++;
     }
 
-    void printAll() {
-        System.out.printf("ID: %d , Name: %-10s , price:%5.2f , AnalogID: %d , Category: %-7s \n", ID, name, price, analog, category);
+    public void printAll() {
+        System.out.printf("ID: %d , Name: %s , price:%5.2f , Analog: %s , Category: %s\n", ID, name, price, analog, category);
     }
 
     @Override
@@ -95,8 +95,13 @@ public class GenericItem implements Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return this.analog;
+    public Object clone() {
+        try {
+            return super.clone();
+        } catch (CloneNotSupportedException ex) {
+            System.out.println(ex);
+        }
+        return null;
     }
 
     @Override

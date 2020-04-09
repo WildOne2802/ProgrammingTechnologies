@@ -1,9 +1,6 @@
 package Lab2_Lab3_Lab4.ru.billing.client;
 
-import Lab2_Lab3_Lab4.ru.billing.stocklist.Category;
-import Lab2_Lab3_Lab4.ru.billing.stocklist.FoodItem;
-import Lab2_Lab3_Lab4.ru.billing.stocklist.GenericItem;
-import Lab2_Lab3_Lab4.ru.billing.stocklist.ItemCatalog;
+import Lab2_Lab3_Lab4.ru.billing.stocklist.*;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -26,24 +23,23 @@ public class Main {
 //            System.out.println();
 //        }
 //
-//        GenericItem analog = new GenericItem("Oreo", 45.0f, Category.FOOD);
-//        GenericItem clonning = new GenericItem("Cookie", 30.0f, analog);
+        GenericItem analog = new GenericItem("Oreo", 45.0f, Category.FOOD);
+        GenericItem clonning = new GenericItem("Cookie", 30.0f, analog);
+
+        GenericItem clone = (GenericItem) clonning.clone();
+        clone.printAll();
+
+        System.out.println();
 //
-//        GenericItem clone = (GenericItem) clonning.clone();
-//        clone.printAll();
-//
-//        System.out.println();
-//
-        String line = "Конфеты ’Маска’; 45; hello; 120";
-        String line1 = "Candies ";
+        String line = "                          Конфеты ’Маска’      ;         45     ;      120      ";
         line=line.trim();
-        String[] item_fld = line.split(";");
+        String[] item_fld = line.split("[\\s]*[;]+[\\s]*");
 
 //      реализовать разные форматы удаления элементов
 
         System.out.println(Arrays.toString(item_fld));
-        FoodItem newItem = new FoodItem(item_fld[0], Float.parseFloat(item_fld[1]), Short.parseShort(item_fld[2]));
-        newItem.printAll();
+//        FoodItem newItem = new FoodItem(item_fld[0], Float.parseFloat(item_fld[1]), Short.parseShort(item_fld[2]));
+//        newItem.printAll();
 
 //        ItemCatalog catalog = new ItemCatalog();
 //
@@ -95,6 +91,8 @@ public class Main {
 //        loader.load(catalog);
 //        catalog.printItems();
 
+        MyCategory cat = MyCategory.FOOD;
+        System.out.println(cat);
     }
 }
 
