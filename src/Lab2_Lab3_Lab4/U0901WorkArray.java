@@ -16,7 +16,7 @@ public class U0901WorkArray<T extends Number> {
             throw new RuntimeException();
         });
 
-        Long l = (Long) executeSafe(() -> 12220L + 130020200L);
+        Long l = executeSafe(() -> 12220L + 130020200L);
 
         System.out.println(l);
 
@@ -24,9 +24,14 @@ public class U0901WorkArray<T extends Number> {
             throw new ClassCastException();
         });
 
-        String str = executeSafe(() -> "hello world").toString();
+        String str = executeSafe(() -> "hello world");
 
         System.out.println(str);
+
+        str = executeSafe(() -> "lol" + "kek");
+
+        System.out.println(str);
+
 
     }
 
@@ -38,7 +43,7 @@ public class U0901WorkArray<T extends Number> {
         return doubleWork;
     }
 
-    public static Object executeSafe(Supplier<Object> x) {
+    public static <T> T executeSafe(Supplier<T> x) {
         try {
             return x.get();
         } catch (Exception e) {

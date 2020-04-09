@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/Operationable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="379">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,9 +70,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="421">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
               </folding>
@@ -400,7 +396,7 @@
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982079" visible="true" weight="0.20886981" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982079" visible="true" weight="0.20886981" />
       <window_info id="Structure" order="1" sideWeight="0.50179213" side_tool="true" weight="0.27110156" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -408,7 +404,7 @@
       <window_info anchor="bottom" id="Regex Tester" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2585034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2585034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,6 +604,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/GenericItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="122" column="12" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -618,17 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/GenericItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="122" column="12" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state relative-caret-position="379">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -637,9 +633,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="421">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
           </folding>
