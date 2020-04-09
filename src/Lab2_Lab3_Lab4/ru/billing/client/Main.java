@@ -1,5 +1,6 @@
 package Lab2_Lab3_Lab4.ru.billing.client;
 
+import Lab2_Lab3_Lab4.Operationable;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.*;
 
 import java.util.Arrays;
@@ -94,6 +95,12 @@ public class Main {
         System.out.println();
         MyCategory cat = MyCategory.FOOD;
         System.out.println(cat);
+
+//        Operationable operation;
+//        operation = (x,y)->x+y;
+//
+//        System.out.println(operation.calculate(10,20));
+
     }
 }
 
