@@ -20,11 +20,12 @@ public class FoodItem extends GenericItem implements Cloneable {
         this.expires = expires;
 
         setID(GenericItem.getCurrentID());
-        setCurrentID(getCurrentID()+1);
+        setCurrentID(getCurrentID() + 1);
         //this.ID = GenericItem.currentID++;
     }
 
     public FoodItem(String name, float price, short expires) {
+
         this(name, price, null, new Date(120, 1, 1), expires);
     }
 
@@ -35,18 +36,14 @@ public class FoodItem extends GenericItem implements Cloneable {
     @Override
 
     public void printAll() {
-        System.out.printf("ID: %d , Name: %-10s , price:%5.2f , AnalogID: %d , Category: %-7s \n", getID(), getName(), getPrice(), getAnalog(), getCategory());
+        super.printAll();
         System.out.println("Date of income: " + dateOfIncome + " , Expires: " + expires);
     }
 
     @Override
     public boolean equals(Object obj) {
         FoodItem newobj = (FoodItem) obj;
-        return getID() == newobj.getID()
-                && this.getName().equals(newobj.getName())
-                && this.getPrice() == newobj.getPrice()
-                && (this.getAnalog() == null ? newobj.getAnalog() == null : this.getAnalog().equals(newobj.getAnalog()))
-                && this.getCategory().equals(newobj.getCategory())
+        return super.equals(newobj)
                 && this.dateOfIncome.equals(newobj.dateOfIncome)
                 && this.expires == newobj.expires;
     }
@@ -56,14 +53,14 @@ public class FoodItem extends GenericItem implements Cloneable {
         return this.getAnalog();
     }
 
+    //TODO:
+    //create analog access
+    //tostring equals printall +
+
     @Override
     public String toString() {
-        return this.getID() + " "
-                + this.getName() + " "
-                + this.getPrice() + " "
-                + (this.getAnalog() != null ? this.getAnalog().toString() : null) + " "
-                + this.getCategory() + " "
+        return super.toString() + " "
                 + this.dateOfIncome + " "
-                + this.expires + "\n";
+                + this.expires;
     }
 }

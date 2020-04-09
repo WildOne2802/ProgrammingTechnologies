@@ -39,17 +39,14 @@ public class TechnicalItem extends GenericItem implements Cloneable {
 
     @Override
     public void printAll() {
-        System.out.printf("ID: %d , Name: %-10s , price:%5.2f , AnalogID: %d , Category: %-7s \n", getID(), getName(), getPrice(), getAnalog(), getCategory());
+        super.printAll();
         System.out.println("Warranty Time: " + warrantyTime);
     }
 
     @Override
     public boolean equals(Object obj) {
         TechnicalItem newobj = (TechnicalItem) obj;
-        return this.getID() == newobj.getID()
-                && this.getName().equals(newobj.getName())
-                && this.getAnalog() == null ? newobj.getAnalog() == null : this.getAnalog().equals(newobj.getAnalog())
-                && this.getCategory().equals(newobj.getCategory())
+        return super.equals(newobj)
                 && this.warrantyTime == newobj.warrantyTime;
     }
 
@@ -60,11 +57,7 @@ public class TechnicalItem extends GenericItem implements Cloneable {
 
     @Override
     public String toString() {
-        return this.getID() + " "
-                + this.getName() + " "
-                + this.getPrice() + " "
-                + (this.getAnalog() != null ? this.getAnalog().toString() : null) + " "
-                + this.getCategory() + " "
-                + this.warrantyTime + "\n";
+        return super.toString()
+                + this.warrantyTime;
     }
 }

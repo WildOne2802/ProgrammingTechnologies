@@ -14,4 +14,8 @@ public class U0901WorkArray<T extends Number> {
         }
         return doubleWork;
     }
+    //TODO:
+    //static method "execute_safe" takes lambda any type
+    //catch exception
+    //return null if exception
 }

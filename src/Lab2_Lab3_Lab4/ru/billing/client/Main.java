@@ -1,9 +1,11 @@
 package Lab2_Lab3_Lab4.ru.billing.client;
 
+import Lab2_Lab3_Lab4.ru.billing.stocklist.Category;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.FoodItem;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.GenericItem;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.ItemCatalog;
 
+import java.util.Arrays;
 import java.util.Date;
 
 public class Main {
@@ -32,57 +34,66 @@ public class Main {
 //
 //        System.out.println();
 //
-//        String line = "Конфеты ’Маска’;45;120";
-//        String[] item_fld = line.split(";");
-//        FoodItem newItem = new FoodItem(item_fld[0], Float.parseFloat(item_fld[1]), Short.parseShort(item_fld[2]));
-//        newItem.printAll();
+        String line = "Конфеты ’Маска’; 45; hello; 120";
+        String line1 = "Candies ";
+        line=line.trim();
+        String[] item_fld = line.split(";");
 
-        ItemCatalog catalog = new ItemCatalog();
+//      реализовать разные форматы удаления элементов
 
-        FoodItem f1 = new FoodItem("f1");
-        catalog.addItem(f1);
-        FoodItem f2 = new FoodItem("f2");
-        catalog.addItem(f2);
-        FoodItem f3 = new FoodItem("f3");
-        catalog.addItem(f3);
-        FoodItem f4 = new FoodItem("f4");
-        catalog.addItem(f4);
-        FoodItem f5 = new FoodItem("f5");
-        catalog.addItem(f5);
-        FoodItem f6 = new FoodItem("f6");
-        catalog.addItem(f6);
-        FoodItem f7 = new FoodItem("f7");
-        catalog.addItem(f7);
-        FoodItem f8 = new FoodItem("f8");
-        catalog.addItem(f8);
-        FoodItem f9 = new FoodItem("f9");
-        catalog.addItem(f9);
-        FoodItem f10 = new FoodItem("f10");
-        catalog.addItem(f10);
+        System.out.println(Arrays.toString(item_fld));
+        FoodItem newItem = new FoodItem(item_fld[0], Float.parseFloat(item_fld[1]), Short.parseShort(item_fld[2]));
+        newItem.printAll();
 
-        System.out.println(GenericItem.getCurrentID());
-
-        long begin = new Date().getTime();
-
-        for (int i = 0; i < 100000; i++)
-            catalog.findItemByID(10);
-
-        long end = new Date().getTime();
-
-        System.out.println("In HashMap: " + (end - begin));
-
-        begin = new Date().getTime();
-
-        for (int i = 0; i < 100000; i++)
-            catalog.findItemByIDAL(10);
-
-        end = new Date().getTime();
-
-        System.out.println("In ArrayList: " + (end - begin));
-
-        CatalogLoader loader = new CatalogStubLoader();
-        loader.load(catalog);
-        catalog.printItems();
+//        ItemCatalog catalog = new ItemCatalog();
+//
+//        FoodItem f1 = new FoodItem("f1");
+//        catalog.addItem(f1);
+//        FoodItem f2 = new FoodItem("f2");
+//        catalog.addItem(f2);
+//        FoodItem f3 = new FoodItem("f3");
+//        catalog.addItem(f3);
+//        FoodItem f4 = new FoodItem("f4");
+//        catalog.addItem(f4);
+//        FoodItem f5 = new FoodItem("f5");
+//        catalog.addItem(f5);
+//        FoodItem f6 = new FoodItem("f6");
+//        catalog.addItem(f6);
+//        FoodItem f7 = new FoodItem("f7");
+//        catalog.addItem(f7);
+//        FoodItem f8 = new FoodItem("f8");
+//        catalog.addItem(f8);
+//        FoodItem f9 = new FoodItem("f9");
+//        catalog.addItem(f9);
+//        FoodItem f10 = new FoodItem("f10");
+//
+//        catalog.addItem(f10);
+//
+//        System.out.println(GenericItem.getCurrentID());
+//
+//        long begin = new Date().getTime();
+//
+//        for (int i = 0; i < 100000; i++)
+//            catalog.findItemByID(10);
+//
+//        long end = new Date().getTime();
+//
+//        System.out.println("In HashMap: " + (end - begin));
+//
+//        begin = new Date().getTime();
+//
+//        for (int i = 0; i < 100000; i++)
+//            catalog.findItemByIDAL(10);
+//
+//        end = new Date().getTime();
+//
+//        System.out.println("In ArrayList: " + (end - begin));
+//
+//        System.out.println();
+//
+//        CatalogLoader loader = new CatalogStubLoader();
+//        loader.load(catalog);
+//        catalog.printItems();
 
     }
 }
