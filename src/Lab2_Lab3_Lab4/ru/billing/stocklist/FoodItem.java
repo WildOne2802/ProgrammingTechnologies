@@ -37,7 +37,7 @@ public class FoodItem extends GenericItem implements Cloneable {
 
     public void printAll() {
         super.printAll();
-        System.out.println("Date of income: " + dateOfIncome + " , Expires: " + expires);
+        System.out.println("Date of income: " + dateOfIncome + "\nExpires: " + expires);
     }
 
     @Override

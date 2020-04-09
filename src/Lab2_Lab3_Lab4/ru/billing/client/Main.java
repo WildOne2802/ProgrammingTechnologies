@@ -38,8 +38,8 @@ public class Main {
 //      реализовать разные форматы удаления элементов
 
         System.out.println(Arrays.toString(item_fld));
-//        FoodItem newItem = new FoodItem(item_fld[0], Float.parseFloat(item_fld[1]), Short.parseShort(item_fld[2]));
-//        newItem.printAll();
+        FoodItem newItem = new FoodItem(item_fld[0], Float.parseFloat(item_fld[1]), Short.parseShort(item_fld[2]));
+        newItem.printAll();
 
 //        ItemCatalog catalog = new ItemCatalog();
 //
@@ -91,6 +91,7 @@ public class Main {
 //        loader.load(catalog);
 //        catalog.printItems();
 
+        System.out.println();
         MyCategory cat = MyCategory.FOOD;
         System.out.println(cat);
     }

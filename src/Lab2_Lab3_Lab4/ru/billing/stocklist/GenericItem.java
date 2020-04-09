@@ -81,7 +81,7 @@ public class GenericItem implements Cloneable {
     }
 
     public void printAll() {
-        System.out.printf("ID: %d , Name: %s , price:%5.2f , Analog: %s , Category: %s\n", ID, name, price, analog, category);
+        System.out.printf("ID: %d \nName: %s \nPrice:%5.2f \nAnalog: %s \nCategory: %s\n", ID, name, price, analog, category);
     }
 
     @Override
