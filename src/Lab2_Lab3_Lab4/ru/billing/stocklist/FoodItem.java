@@ -49,12 +49,12 @@ public class FoodItem extends GenericItem implements Cloneable {
     }
 
     @Override
-    public Object clone() {
-        return super.clone();
+    public FoodItem clone() {
+        return (FoodItem) super.clone();
     }
 
     //TODO:
-    //create analog access
+    //clonning without changing +
     //tostring equals printall +
 
     @Override

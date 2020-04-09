@@ -1,6 +1,8 @@
 package Lab2_Lab3_Lab4.ru.billing.stocklist;
 
-public class GenericItem implements Cloneable {
+import java.io.*;
+
+public class GenericItem implements Cloneable, Serializable {
     private int ID;
 
     public int getID() {
@@ -81,7 +83,7 @@ public class GenericItem implements Cloneable {
     }
 
     public void printAll() {
-        System.out.printf("ID: %d \nName: %s \nPrice:%5.2f \nAnalog: %s \nCategory: %s\n", ID, name, price, analog, category);
+        System.out.printf("ID: %d \nName: %s \nPrice: %5.2f \nAnalog: %s \nCategory: %s\n", ID, name, price, analog, category);
     }
 
     @Override
@@ -95,11 +97,30 @@ public class GenericItem implements Cloneable {
     }
 
     @Override
-    public Object clone() {
+//    public Object clone() {
+//        try {
+//            return super.clone();
+//        } catch (Exception ex) {
+//            System.out.println(ex);
+//        }
+//        return null;
+//    }
+
+    public GenericItem clone() {
         try {
-            return super.clone();
-        } catch (CloneNotSupportedException ex) {
-            System.out.println(ex);
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            ObjectOutputStream ous = new ObjectOutputStream(baos);
+
+            ous.writeObject(this);
+            ous.close();
+
+            ByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());
+            ObjectInputStream ois =new ObjectInputStream(bais);
+
+            GenericItem clone = (GenericItem) ois.readObject();
+            return clone;
+        } catch (Exception e) {
+            e.printStackTrace();
         }
         return null;
     }
