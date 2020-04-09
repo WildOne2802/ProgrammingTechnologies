@@ -6,8 +6,7 @@ public enum Category {
     DRESS,
     GENERAL
 }
-//TODO:
-//enum by yourself+
+
 
 
 

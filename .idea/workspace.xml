@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/Operationable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/Operationable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+            <state relative-caret-position="86">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/GenericItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="114" column="24" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+            <state relative-caret-position="465">
+              <caret line="122" column="12" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -46,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+            <state relative-caret-position="864">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#1409#1410#0" expanded="true" />
                 <element signature="e#1456#1457#0" expanded="true" />
@@ -60,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/TechnicalItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="880">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="e#1574#1575#0" expanded="true" />
                 <element signature="e#1626#1627#0" expanded="true" />
@@ -69,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="-69">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -83,18 +86,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/Operationable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
+            <state relative-caret-position="80">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -106,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="128">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -115,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="256">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="e#442#443#0" expanded="true" />
                 <element signature="e#469#470#0" expanded="true" />
@@ -128,11 +122,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="256">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -182,14 +185,14 @@
         <option value="$PROJECT_DIR$/src/Lab2_Lab3/Main.java" />
         <option value="$PROJECT_DIR$/src/Lab2_Lab3/ru/billing/client/CatalogStubLoader.java" />
         <option value="$PROJECT_DIR$/src/Lab2_Lab3/ru/billing/stocklist/FoodItem.java" />
-        <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java" />
-        <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java" />
         <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/TechnicalItem.java" />
         <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/GenericItem.java" />
-        <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java" />
-        <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java" />
         <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/Operationable.java" />
+        <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java" />
+        <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java" />
+        <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java" />
         <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java" />
       </list>
     </option>
   </component>
@@ -248,6 +251,15 @@
               <item name="billing" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProgrammingTechnologies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProgrammingTechnologies" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab2_Lab3_Lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="billing" type="462c0819:PsiDirectoryNode" />
+              <item name="stocklist" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -289,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.U0901WorkArray">
     <configuration name="Count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstLab.Count" />
       <module name="ProgrammingTechnologies" />
@@ -336,19 +348,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstLab.Third.Fifth.MyArrays" />
-      <module name="ProgrammingTechnologies" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FirstLab.Third.Fifth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="U0901Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4.U0901Main" />
       <module name="ProgrammingTechnologies" />
@@ -362,13 +361,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="U0901WorkArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4.U0901WorkArray" />
+      <module name="ProgrammingTechnologies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2_Lab3_Lab4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.U0901WorkArray" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.U0901Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Count" />
-        <item itemvalue="Application.MyArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -507,13 +519,6 @@
     <entry file="file://$PROJECT_DIR$/ProgrammingTechnologies.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -539,48 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/TechnicalItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="e#1574#1575#0" expanded="true" />
             <element signature="e#1626#1627#0" expanded="true" />
@@ -588,28 +555,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/Operationable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="80">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/Operationable.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+        <state relative-caret-position="864">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#1409#1410#0" expanded="true" />
             <element signature="e#1456#1457#0" expanded="true" />
@@ -617,19 +601,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/GenericItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="114" column="24" lean-forward="true" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+        <state relative-caret-position="465">
+          <caret line="122" column="12" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+        <state relative-caret-position="86">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>

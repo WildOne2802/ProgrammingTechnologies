@@ -54,8 +54,7 @@ public class FoodItem extends GenericItem implements Cloneable {
     }
 
     //TODO:
-    //clonning without changing +
-    //tostring equals printall +
+
 
     @Override
     public String toString() {

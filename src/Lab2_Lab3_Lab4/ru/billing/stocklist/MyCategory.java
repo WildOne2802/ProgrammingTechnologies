@@ -8,9 +8,6 @@ public class MyCategory {
 
     private String value;
 
-    public MyCategory() {
-    }
-
     private MyCategory(String str) {
         value = str;
     }

@@ -1,10 +1,8 @@
 package Lab2_Lab3_Lab4.ru.billing.client;
 
-import Lab2_Lab3_Lab4.Operationable;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.*;
 
 import java.util.Arrays;
-import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,12 +29,11 @@ public class Main {
         clone.printAll();
 
         System.out.println();
-//
+
         String line = "                          Конфеты ’Маска’      ;         45     ;      120      ";
         line=line.trim();
         String[] item_fld = line.split("[\\s]*[;]+[\\s]*");
 
-//      реализовать разные форматы удаления элементов
 
         System.out.println(Arrays.toString(item_fld));
         FoodItem newItem = new FoodItem(item_fld[0], Float.parseFloat(item_fld[1]), Short.parseShort(item_fld[2]));
@@ -95,11 +92,6 @@ public class Main {
         System.out.println();
         MyCategory cat = MyCategory.FOOD;
         System.out.println(cat);
-
-//        Operationable operation;
-//        operation = (x,y)->x+y;
-//
-//        System.out.println(operation.calculate(10,20));
 
     }
 }
