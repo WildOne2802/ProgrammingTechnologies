@@ -23,4 +23,3 @@ public class CatalogStubLoader implements CatalogLoader {
         }
     }
 }
-//какие бывают исключения, как они работают, показать на примере.
