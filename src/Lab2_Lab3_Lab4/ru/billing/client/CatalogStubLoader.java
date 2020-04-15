@@ -11,19 +11,16 @@ import java.util.Date;
 
 public class CatalogStubLoader implements CatalogLoader {
     @Override
-    public void load(ItemCatalog catalog) throws CatalogLoadException {
+    public void load(ItemCatalog catalog) {
         GenericItem item1 = new GenericItem("Sony TV", 23000, Category.GENERAL);
         FoodItem item2 = new FoodItem("Bread", 12, null, new Date(), (short) 10);
         try {
-
             catalog.addItem(item1);
             catalog.addItem(item2);
-
         } catch (ItemAlreadyExistsException e) {
-
             e.printStackTrace();
-            throw new CatalogLoadException(e);
-
+            throw new CatalogLoadException();
         }
     }
 }
+//какие бывают исключения, как они работают, показать на примере.

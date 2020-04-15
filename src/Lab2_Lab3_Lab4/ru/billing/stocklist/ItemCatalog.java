@@ -2,8 +2,7 @@ package Lab2_Lab3_Lab4.ru.billing.stocklist;
 
 import Lab2_Lab3_Lab4.ru.billing.exceptions.ItemAlreadyExistsException;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.*;
 
 public class ItemCatalog {
     private HashMap<Integer, GenericItem> catalog =
@@ -39,5 +38,37 @@ public class ItemCatalog {
         return null;
     }
 
+    public void deleteItemByID(int id) {
+        catalog.remove(id);
+    }
 
+    public void deleteItemByIDAL(int id) {
+        for (GenericItem i : ALCatalog) {
+            if (i.getID() == id)
+                ALCatalog.remove(i);
+        }
+    }
+
+    public GenericItem specialSearchAL(String name, Category category) {
+        for (GenericItem i : ALCatalog)
+            if (i.getName().equals(name) && i.getCategory() == category)
+                return i;
+        return null;
+    }
+
+    public GenericItem specialSearch(String name, Category category) {
+
+        for (Map.Entry<Integer, GenericItem> pair : catalog.entrySet()) {
+            if (pair.getValue().getName().equals(name) && pair.getValue().getCategory() == category)
+                return pair.getValue();
+        }
+        return null;
+    }
 }
+
+//TODO
+//запись нового айтема +
+//поиск айтема по айди +
+//удаление айтема по айди +
+//поиск айтемов по паре name and category +
+
