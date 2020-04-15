@@ -1,5 +1,7 @@
 package Lab2_Lab3_Lab4.ru.billing.stocklist;
 
+import Lab2_Lab3_Lab4.ru.billing.exceptions.ItemAlreadyExistsException;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -9,9 +11,15 @@ public class ItemCatalog {
     private ArrayList<GenericItem> ALCatalog =
             new ArrayList<GenericItem>();
 
-    public void addItem(GenericItem item) {
-        catalog.put(item.getID(), item);
-        ALCatalog.add(item);
+    public void addItem(GenericItem item) throws ItemAlreadyExistsException {
+
+        if (catalog.containsKey(item.getID()) || ALCatalog.contains(item)) throw new ItemAlreadyExistsException();
+
+        else {
+
+            catalog.put(item.getID(), item);
+            ALCatalog.add(item);
+        }
     }
 
     public void printItems() {
