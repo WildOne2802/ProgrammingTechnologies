@@ -59,16 +59,15 @@ public class ItemCatalog {
         return null;
     }
 
+
     public void deleteItemByID(int id) {
+        elseCatalog.get(new Pair<>(catalog.get(id).getName(), catalog.get(id).getCategory())).remove(catalog.get(id));
         catalog.remove(id);
+        ALCatalog.removeIf(i -> i.getID() == id);
+
     }
 
-    public void deleteItemByIDAL(int id) {
-        for (GenericItem i : ALCatalog) {
-            if (i.getID() == id)
-                ALCatalog.remove(i);
-        }
-    }
+
 
     public GenericItem[] specialSearchAL(String name, Category category) {
         GenericItem[] resultArray = new GenericItem[ALCatalog.size()];
