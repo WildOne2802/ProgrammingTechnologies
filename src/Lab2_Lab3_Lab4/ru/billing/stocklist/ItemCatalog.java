@@ -9,18 +9,36 @@ public class ItemCatalog {
             new HashMap<Integer, GenericItem>();
     private ArrayList<GenericItem> ALCatalog =
             new ArrayList<GenericItem>();
-    private HashMap<Pair<String, Category>, GenericItem> elseCatalog = new HashMap<>();
+    private HashMap<Pair<String, Category>, Set<GenericItem>> elseCatalog = new HashMap<>();
+
+//    public int hashFunction(String value) {
+//        int hash = 7;
+//        for (int i = 0; i < value.length(); i++) {
+//            hash = hash * 31 + value.charAt(i);
+//        }
+//        return hash;
+//    }
 
     public void addItem(GenericItem item) throws ItemAlreadyExistsException {
 
-        if (catalog.containsKey(item.getID()) || ALCatalog.contains(item) || elseCatalog.containsKey(new Pair<>(item.getName(), item.getCategory())))
+        Pair<String, Category> pair = new Pair<>(item.getName(), item.getCategory());
+        if (catalog.containsKey(item.getID()) || ALCatalog.contains(item))
             throw new ItemAlreadyExistsException();
+        if (elseCatalog.containsKey(pair) && elseCatalog.get(pair).contains(item)){
+            throw new ItemAlreadyExistsException();
+        }
 
         else {
 
             catalog.put(item.getID(), item);
             ALCatalog.add(item);
-            elseCatalog.put(new Pair<>(item.getName(), item.getCategory()), item);
+            if (elseCatalog.containsKey(pair))
+                elseCatalog.get(pair).add(item);
+            else {
+                Set<GenericItem> set = new HashSet<>();
+                set.add(item);
+                elseCatalog.put(pair, set);
+            }
         }
     }
 
@@ -61,16 +79,8 @@ public class ItemCatalog {
         return resultArray;
     }
 
-    public HashSet<GenericItem> specialSearch(String name, Category category) {
-
-        HashSet<GenericItem> set = new HashSet<GenericItem>();
-        Pair<String, Category> pair = new Pair<String, Category>(name, category);
-        elseCatalog.forEach((t, s) -> {
-            if (t.equals(pair)) {
-                set.add(s);
-            }
-        });
-        return set;
+    public Set<GenericItem> specialSearch(String name, Category category) {
+        return elseCatalog.get(new Pair<>(name, category));
     }
 
 

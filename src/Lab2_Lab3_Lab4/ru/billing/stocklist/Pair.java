@@ -11,6 +11,15 @@ class Pair<T, S> {
     }
 
     @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + firstValue.hashCode();
+        result = prime * result + secondValue.hashCode();
+        return result;
+    }
+
+    @Override
     public boolean equals(Object obj) {
         Pair newobj = (Pair) obj;
 
