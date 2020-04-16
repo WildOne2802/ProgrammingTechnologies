@@ -65,9 +65,9 @@ public class ItemCatalog {
 
         HashSet<GenericItem> set = new HashSet<GenericItem>();
         Pair<String, Category> pair = new Pair<String, Category>(name, category);
-        elseCatalog.forEach((k, v) -> {
-            if (k.equals(pair)) {
-                set.add(v);
+        elseCatalog.forEach((t, s) -> {
+            if (t.equals(pair)) {
+                set.add(s);
             }
         });
         return set;
