@@ -65,9 +65,9 @@ public class Main {
             catalog.addItem(f9);
             FoodItem f10 = new FoodItem("f10");
             catalog.addItem(f10);
-            GenericItem f11 = new GenericItem("f11", 45.0f, Category.FOOD);
+            GenericItem f11 = new GenericItem("COCA-COLA", 45.0f, Category.FOOD);
             catalog.addItem(f11);
-            GenericItem f12 = new GenericItem("f12", 20.0f, Category.FOOD);
+            GenericItem f12 = new GenericItem("COCA-COLA", 20.0f, Category.FOOD);
             catalog.addItem(f12);
             GenericItem f13 = new GenericItem("f13", 10.0f, Category.GENERAL);
             catalog.addItem(f13);
@@ -99,7 +99,7 @@ public class Main {
 
             System.out.println();
 
-            System.out.println(catalog.specialSearch("f11", Category.FOOD));
+            System.out.println(catalog.specialSearch("COCA-COLA", Category.FOOD));
 
             System.out.println(catalog.specialSearch("f13", Category.DRESS));
 

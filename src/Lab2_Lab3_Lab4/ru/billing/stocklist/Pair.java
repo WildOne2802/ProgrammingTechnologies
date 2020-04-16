@@ -12,15 +12,8 @@ class Pair<T, S> {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() == obj.getClass()) return false;
-
         Pair newobj = (Pair) obj;
 
-        if (firstValue != null ? !firstValue.equals(newobj.firstValue) : newobj.firstValue != null) return false;
-        if (secondValue != null ? !secondValue.equals(newobj.secondValue) : newobj.secondValue != null)return false;
-
-        return true;
-        //        return (this.firstValue.equals(newobj.firstValue)) && (this.secondValue.equals(newobj.secondValue));
+        return (this.firstValue.equals(newobj.firstValue)) && (this.secondValue.equals(newobj.secondValue));
     }
 }
