@@ -16,6 +16,8 @@ public class FoodItem extends GenericItem implements Cloneable {
         //this.price = price;
         setAnalog(analog);
         //this.analog = analog;
+        setCategory(Category.FOOD);
+
         this.dateOfIncome = dateOfIncome;
         this.expires = expires;
 

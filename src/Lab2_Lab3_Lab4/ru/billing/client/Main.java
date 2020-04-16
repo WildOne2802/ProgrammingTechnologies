@@ -99,7 +99,7 @@ public class Main {
 
             System.out.println();
 
-            System.out.println(catalog.specialSearch("f12", Category.FOOD));
+            System.out.println(catalog.specialSearch("f11", Category.FOOD));
 
             System.out.println(catalog.specialSearch("f13", Category.DRESS));
 

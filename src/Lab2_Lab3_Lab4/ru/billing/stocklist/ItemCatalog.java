@@ -61,29 +61,26 @@ public class ItemCatalog {
         return resultArray;
     }
 
-    public GenericItem specialSearch(String name, Category category) {
+    public HashSet<GenericItem> specialSearch(String name, Category category) {
+
+        HashSet<GenericItem> set = new HashSet<GenericItem>();
+        Pair<String, Category> pair = new Pair<String, Category>(name, category);
+        elseCatalog.forEach((k, v) -> {
+            if (k.equals(pair)) {
+                set.add(v);
+            }
+        });
+        return set;
+    }
+
+
+//    public GenericItem specialSearch(String name, Category category) {
 //        GenericItem[] resultArray = new GenericItem[catalog.size()];
 //        int count = 0;
-        return elseCatalog.getOrDefault(new Pair<>(name, category), null);
+//        return elseCatalog.get(new Pair<>(name, category));
+//
+//    }
 
-    }
-
-}
-
-class Pair<T, S> {
-    public T firstValue;
-    public S secondValue;
-
-    Pair(T firstValue, S secondValue) {
-        this.firstValue = firstValue;
-        this.secondValue = secondValue;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        Pair newobj = (Pair) obj;
-        return (this.firstValue.equals(newobj.firstValue)) && (this.secondValue.equals(newobj.secondValue));
-    }
 }
 
 //TODO
