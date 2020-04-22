@@ -1,7 +1,7 @@
 package Lab2_Lab3_Lab4.ru.billing.client;
 
-import Lab2_Lab3_Lab4.ru.billing.exceptions.CatalogLoadException;
-import Lab2_Lab3_Lab4.ru.billing.exceptions.ItemAlreadyExistsException;
+import Lab2_Lab3_Lab4.ru.itmo.exceptions.CatalogLoadException;
+import Lab2_Lab3_Lab4.ru.itmo.exceptions.ItemAlreadyExistsException;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.Category;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.FoodItem;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.GenericItem;

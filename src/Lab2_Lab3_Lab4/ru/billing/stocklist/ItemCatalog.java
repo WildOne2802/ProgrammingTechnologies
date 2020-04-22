@@ -1,6 +1,6 @@
 package Lab2_Lab3_Lab4.ru.billing.stocklist;
 
-import Lab2_Lab3_Lab4.ru.billing.exceptions.ItemAlreadyExistsException;
+import Lab2_Lab3_Lab4.ru.itmo.exceptions.ItemAlreadyExistsException;
 
 import java.util.*;
 
@@ -10,14 +10,6 @@ public class ItemCatalog {
     private ArrayList<GenericItem> ALCatalog =
             new ArrayList<GenericItem>();
     private HashMap<Pair<String, Category>, Set<GenericItem>> elseCatalog = new HashMap<>();
-
-//    public int hashFunction(String value) {
-//        int hash = 7;
-//        for (int i = 0; i < value.length(); i++) {
-//            hash = hash * 31 + value.charAt(i);
-//        }
-//        return hash;
-//    }
 
     public void addItem(GenericItem item) throws ItemAlreadyExistsException {
 
@@ -78,8 +70,6 @@ public class ItemCatalog {
     public Set<GenericItem> specialSearch(String name, Category category) {
         return elseCatalog.get(new Pair<>(name, category));
     }
-
-
 
 }
 
