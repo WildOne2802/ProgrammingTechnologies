@@ -1,6 +1,6 @@
 package Lab2_Lab3_Lab4.ru.billing.client;
 
-import Lab2_Lab3_Lab4.ru.itmo.exceptions.ItemAlreadyExistsException;
+import Lab2_Lab3_Lab4.ru.billing.exceptions.ItemAlreadyExistsException;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.*;
 
 import java.util.Date;

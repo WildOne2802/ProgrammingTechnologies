@@ -26,7 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitingnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitingnore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogFileLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/itmo/client/CatalogFileLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/itmo/exceptions/CatalogLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/CatalogLoadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/itmo/exceptions/ItemAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/ItemAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/itmo/exceptions/NegativeQuantityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/NegativeQuantityException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587030683532</updated>
       <workItem from="1587030685951" duration="7575000" />
-      <workItem from="1587542567935" duration="4661000" />
+      <workItem from="1587542567935" duration="6566000" />
     </task>
     <task id="LOCAL-00001" summary="Exceptions">
       <created>1587033188506</created>
@@ -237,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587550548065</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Threads sync">
+      <created>1587550917638</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587550917638</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -273,14 +289,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="434" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1587550382049" />
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1587039079848">
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1587551015145">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587039079848" />
-    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2" timestamp="1587550547930">
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587551015145" />
+    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2" timestamp="1587550917476">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587550547930" />
+    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587550917476" />
     <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1587550413673">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -321,10 +337,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587550841478" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587550549234">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587550918652">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587550549234" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587550918652" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587032600773">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

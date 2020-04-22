@@ -1,9 +1,10 @@
 package Lab2_Lab3_Lab4.ru.billing.client;
 
+import Lab2_Lab3_Lab4.ru.billing.exceptions.CatalogLoadException;
 import Lab2_Lab3_Lab4.ru.billing.stocklist.ItemCatalog;
 
 
 public interface CatalogLoader {
 
-    public void load(ItemCatalog catalog);
+    public void load(ItemCatalog catalog) throws CatalogLoadException;
 }
