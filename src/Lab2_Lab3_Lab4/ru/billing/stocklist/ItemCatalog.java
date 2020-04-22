@@ -24,11 +24,9 @@ public class ItemCatalog {
         Pair<String, Category> pair = new Pair<>(item.getName(), item.getCategory());
         if (catalog.containsKey(item.getID()) || ALCatalog.contains(item))
             throw new ItemAlreadyExistsException();
-        if (elseCatalog.containsKey(pair) && elseCatalog.get(pair).contains(item)){
+        if (elseCatalog.containsKey(pair) && elseCatalog.get(pair).contains(item)) {
             throw new ItemAlreadyExistsException();
-        }
-
-        else {
+        } else {
 
             catalog.put(item.getID(), item);
             ALCatalog.add(item);
@@ -68,7 +66,6 @@ public class ItemCatalog {
     }
 
 
-
     public GenericItem[] specialSearchAL(String name, Category category) {
         GenericItem[] resultArray = new GenericItem[ALCatalog.size()];
         int count = 0;
@@ -83,12 +80,6 @@ public class ItemCatalog {
     }
 
 
-//    public GenericItem specialSearch(String name, Category category) {
-//        GenericItem[] resultArray = new GenericItem[catalog.size()];
-//        int count = 0;
-//        return elseCatalog.get(new Pair<>(name, category));
-//
-//    }
 
 }
 
