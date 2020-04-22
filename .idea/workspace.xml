@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitingnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitingnore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="Regex">
     <option name="pos1" value="218" />
@@ -173,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587030683532</updated>
       <workItem from="1587030685951" duration="7575000" />
-      <workItem from="1587542567935" duration="4395000" />
+      <workItem from="1587542567935" duration="4661000" />
     </task>
     <task id="LOCAL-00001" summary="Exceptions">
       <created>1587033188506</created>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587550418278</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Threads sync">
+      <created>1587550548064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587550548065</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -271,10 +277,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587039079848" />
-    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2" timestamp="1587550418138">
+    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2" timestamp="1587550547930">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587550418138" />
+    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587550547930" />
     <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1587550413673">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -311,10 +317,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1587033223428" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587550425551">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1587550841478">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587550425551" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587550841478" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587550549234">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587550549234" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587032600773">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
