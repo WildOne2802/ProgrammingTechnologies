@@ -25,13 +25,7 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/sync/U1901Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/sync/U1901Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/sync/U1901Thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java" afterDir="false" />
-    </list>
+    <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587030683532</updated>
       <workItem from="1587030685951" duration="7575000" />
-      <workItem from="1587542567935" duration="3816000" />
+      <workItem from="1587542567935" duration="4028000" />
     </task>
     <task id="LOCAL-00001" summary="Exceptions">
       <created>1587033188506</created>
@@ -220,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587545220370</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Threads sync">
+      <created>1587549621578</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587549621578</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -244,7 +245,8 @@
     <MESSAGE value="Fix" />
     <MESSAGE value="Exceptions" />
     <MESSAGE value="Code Review" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Review" />
+    <MESSAGE value="Threads sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="Threads sync" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587543217562">
@@ -255,10 +257,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587039079848" />
-    <state x="253" y="26" key="CommitChangelistDialog2" timestamp="1587545220089">
+    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2" timestamp="1587549621368">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="26" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587545220089" />
+    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587549621368" />
     <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1587549470093">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -295,10 +297,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1587033223428" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587545222167">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587549622621">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587545222167" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587549622621" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587032600773">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
