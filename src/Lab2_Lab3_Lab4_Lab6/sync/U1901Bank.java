@@ -1,4 +1,4 @@
-package Lab2_Lab3_Lab4.sync;
+package Lab2_Lab3_Lab4_Lab6.sync;
 
 public class U1901Bank {
     int intTo;

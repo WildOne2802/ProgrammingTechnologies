@@ -1,10 +1,7 @@
-package Lab2_Lab3_Lab4.ru.billing.client;
+package Lab2_Lab3_Lab4_Lab6.ru.billing.client;
 
-import Lab2_Lab3_Lab4.ru.billing.exceptions.CatalogLoadException;
-import Lab2_Lab3_Lab4.ru.billing.exceptions.ItemAlreadyExistsException;
-import Lab2_Lab3_Lab4.ru.billing.stocklist.*;
-
-import java.util.Date;
+import Lab2_Lab3_Lab4_Lab6.ru.billing.exceptions.CatalogLoadException;
+import Lab2_Lab3_Lab4_Lab6.ru.billing.stocklist.*;
 
 public class Main {
     public static void main(String[] args) {

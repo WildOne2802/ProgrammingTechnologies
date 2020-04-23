@@ -1,4 +1,4 @@
-package Lab2_Lab3_Lab4.ru.billing.exceptions;
+package Lab2_Lab3_Lab4_Lab6.ru.billing.exceptions;
 
 public class ItemAlreadyExistsException extends Exception {
 

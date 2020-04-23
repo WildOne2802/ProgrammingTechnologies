@@ -26,9 +26,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/items.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/U0901Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/U0901WorkArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogFileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/CatalogFileLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/CatalogLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/CatalogStubLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/items.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/items.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/CatalogLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/CatalogLoadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/ItemAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/ItemAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/NegativeQuantityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/NegativeQuantityException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/FoodItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/GenericItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/GenericItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/ItemCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/MyCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/TechnicalItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/TechnicalItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/sync/U1901Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/sync/U1901Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/sync/U1901Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Thread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,22 +99,22 @@
     <option name="showLabels" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4.ru.billing.client.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstLab.Third.Main" />
       <module name="ProgrammingTechnologies" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab2_Lab3_Lab4.ru.billing.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstLab.Third.Main" />
+      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4_Lab6.ru.billing.client.Main" />
       <module name="ProgrammingTechnologies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2_Lab3_Lab4_Lab6.ru.billing.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +133,11 @@
       </method>
     </configuration>
     <configuration name="U0901Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4.U0901Main" />
+      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4_Lab6.U0901Main" />
       <module name="ProgrammingTechnologies" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2_Lab3_Lab4.ru.billing.client.*" />
+          <option name="PATTERN" value="Lab2_Lab3_Lab4_Lab6.ru.billing.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +146,11 @@
       </method>
     </configuration>
     <configuration name="U0901WorkArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4.U0901WorkArray" />
+      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4_Lab6.U0901WorkArray" />
       <module name="ProgrammingTechnologies" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2_Lab3_Lab4.*" />
+          <option name="PATTERN" value="Lab2_Lab3_Lab4_Lab6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +159,11 @@
       </method>
     </configuration>
     <configuration name="U1901Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4.sync.U1901Main" />
+      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4_Lab6.sync.U1901Main" />
       <module name="ProgrammingTechnologies" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2_Lab3_Lab4.sync.*" />
+          <option name="PATTERN" value="Lab2_Lab3_Lab4_Lab6.sync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587030683532</updated>
       <workItem from="1587030685951" duration="7575000" />
-      <workItem from="1587542567935" duration="8121000" />
+      <workItem from="1587542567935" duration="8875000" />
     </task>
     <task id="LOCAL-00001" summary="Exceptions">
       <created>1587033188506</created>
@@ -253,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587557878611</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="IO Threads">
+      <created>1587621200783</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587621200783</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -278,7 +303,8 @@
     <MESSAGE value="Exceptions" />
     <MESSAGE value="Code Review" />
     <MESSAGE value="Threads sync" />
-    <option name="LAST_COMMIT_MESSAGE" value="Threads sync" />
+    <MESSAGE value="IO Threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO Threads" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587543217562">
@@ -293,10 +319,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587551015145" />
-    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2" timestamp="1587557878433">
+    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2" timestamp="1587621200582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587557878433" />
+    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587621200582" />
     <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1587588265700">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -337,10 +363,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587550841478" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587557879564">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587621203003">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587557879564" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587621203003" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587032600773">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

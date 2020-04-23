@@ -1,6 +1,5 @@
-package Lab2_Lab3_Lab4;
+package Lab2_Lab3_Lab4_Lab6;
 
-import java.io.IOException;
 import java.util.function.Supplier;
 
 public class U0901WorkArray<T extends Number> {

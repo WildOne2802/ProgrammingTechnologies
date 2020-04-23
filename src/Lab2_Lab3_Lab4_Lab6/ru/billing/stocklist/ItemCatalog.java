@@ -1,6 +1,6 @@
-package Lab2_Lab3_Lab4.ru.billing.stocklist;
+package Lab2_Lab3_Lab4_Lab6.ru.billing.stocklist;
 
-import Lab2_Lab3_Lab4.ru.billing.exceptions.ItemAlreadyExistsException;
+import Lab2_Lab3_Lab4_Lab6.ru.billing.exceptions.ItemAlreadyExistsException;
 
 import java.util.*;
 

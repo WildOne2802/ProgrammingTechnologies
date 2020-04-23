@@ -1,4 +1,4 @@
-package Lab2_Lab3_Lab4;
+package Lab2_Lab3_Lab4_Lab6;
 
 public class U0901Main {
     public static void main(String[] args) {

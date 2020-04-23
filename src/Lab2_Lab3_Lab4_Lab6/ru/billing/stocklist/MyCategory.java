@@ -1,4 +1,4 @@
-package Lab2_Lab3_Lab4.ru.billing.stocklist;
+package Lab2_Lab3_Lab4_Lab6.ru.billing.stocklist;
 
 public class MyCategory {
     public final static MyCategory FOOD = new MyCategory("FOOD");

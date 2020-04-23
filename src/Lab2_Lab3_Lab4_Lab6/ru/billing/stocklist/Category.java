@@ -1,4 +1,4 @@
-package Lab2_Lab3_Lab4.ru.billing.stocklist;
+package Lab2_Lab3_Lab4_Lab6.ru.billing.stocklist;
 
 public enum Category {
     FOOD,

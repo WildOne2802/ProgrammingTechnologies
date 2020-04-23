@@ -1,11 +1,11 @@
-package Lab2_Lab3_Lab4.ru.billing.client;
+package Lab2_Lab3_Lab4_Lab6.ru.billing.client;
 
-import Lab2_Lab3_Lab4.ru.billing.exceptions.CatalogLoadException;
-import Lab2_Lab3_Lab4.ru.billing.exceptions.ItemAlreadyExistsException;
-import Lab2_Lab3_Lab4.ru.billing.stocklist.Category;
-import Lab2_Lab3_Lab4.ru.billing.stocklist.FoodItem;
-import Lab2_Lab3_Lab4.ru.billing.stocklist.GenericItem;
-import Lab2_Lab3_Lab4.ru.billing.stocklist.ItemCatalog;
+import Lab2_Lab3_Lab4_Lab6.ru.billing.exceptions.CatalogLoadException;
+import Lab2_Lab3_Lab4_Lab6.ru.billing.exceptions.ItemAlreadyExistsException;
+import Lab2_Lab3_Lab4_Lab6.ru.billing.stocklist.Category;
+import Lab2_Lab3_Lab4_Lab6.ru.billing.stocklist.FoodItem;
+import Lab2_Lab3_Lab4_Lab6.ru.billing.stocklist.GenericItem;
+import Lab2_Lab3_Lab4_Lab6.ru.billing.stocklist.ItemCatalog;
 
 import java.util.Date;
 

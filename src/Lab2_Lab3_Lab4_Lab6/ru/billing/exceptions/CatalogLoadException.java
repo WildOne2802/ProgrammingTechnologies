@@ -1,6 +1,4 @@
-package Lab2_Lab3_Lab4.ru.billing.exceptions;
-
-import Lab2_Lab3_Lab4.ru.billing.client.CatalogLoader;
+package Lab2_Lab3_Lab4_Lab6.ru.billing.exceptions;
 
 import java.io.FileNotFoundException;
 
