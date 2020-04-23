@@ -26,16 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogFileLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/items.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/itmo/client/CatalogFileLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/itmo/exceptions/CatalogLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/CatalogLoadException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/itmo/exceptions/ItemAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/ItemAlreadyExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/itmo/exceptions/NegativeQuantityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/NegativeQuantityException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +80,7 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Application.U1901Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4.ru.billing.client.Main" />
       <module name="ProgrammingTechnologies" />
@@ -162,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.U1901Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.U1901Main" />
         <item itemvalue="Application.U0901WorkArray" />
         <item itemvalue="Application.U0901Main" />
         <item itemvalue="Application.Main" />
@@ -181,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587030683532</updated>
       <workItem from="1587030685951" duration="7575000" />
-      <workItem from="1587542567935" duration="6566000" />
+      <workItem from="1587542567935" duration="8121000" />
     </task>
     <task id="LOCAL-00001" summary="Exceptions">
       <created>1587033188506</created>
@@ -253,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587550917638</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Threads sync">
+      <created>1587557878611</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587557878611</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -285,34 +285,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587543217562" />
-    <state x="434" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587550382049">
+    <state x="434" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587586630166">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="434" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1587550382049" />
+    <state x="434" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1587586630166" />
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1587551015145">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587551015145" />
-    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2" timestamp="1587550917476">
+    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2" timestamp="1587557878433">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587550917476" />
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1587550413673">
+    <state x="253" y="23" width="967" height="829" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587557878433" />
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1587588265700">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587550413673" />
-    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1587550413672">
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587588265700" />
+    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1587588265699">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587550413672" />
-    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1587550413672">
+    <state width="1398" height="216" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587588265699" />
+    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1587588265699">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587550413672" />
-    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1587550413673">
+    <state width="1398" height="216" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587588265699" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1587588265700">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587550413673" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587588265700" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1587041547128">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -329,18 +329,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587041547128" />
-    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1587033223428">
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1587586786500">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1587033223428" />
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1587586786500" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1587550841478">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587550841478" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587550918652">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587557879564">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587550918652" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587557879564" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587032600773">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
