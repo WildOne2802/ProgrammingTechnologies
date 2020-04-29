@@ -27,26 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/U0901Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/U0901WorkArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/U0901WorkArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogFileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/CatalogFileLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/CatalogLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/CatalogStubLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/CatalogStubLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/client/items.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/items.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/CatalogLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/CatalogLoadException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/ItemAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/ItemAlreadyExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/exceptions/NegativeQuantityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/NegativeQuantityException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/FoodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/FoodItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/GenericItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/GenericItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/ItemCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/ItemCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/MyCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/MyCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/ru/billing/stocklist/TechnicalItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/stocklist/TechnicalItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/sync/U1901Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/sync/U1901Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4/sync/U1901Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/NegativeQuantityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/NegativeQuantityException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +80,19 @@
     <option name="showLabels" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4_Lab6.ru.billing.client.Main" />
+      <module name="ProgrammingTechnologies" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2_Lab3_Lab4_Lab6.ru.billing.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstLab.Third.Main" />
       <module name="ProgrammingTechnologies" />
@@ -192,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587030683532</updated>
       <workItem from="1587030685951" duration="7575000" />
-      <workItem from="1587542567935" duration="8875000" />
+      <workItem from="1587542567935" duration="11207000" />
     </task>
     <task id="LOCAL-00001" summary="Exceptions">
       <created>1587033188506</created>
@@ -278,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587621200783</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="IO Threads">
+      <created>1587622209528</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587622209528</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -319,26 +320,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587551015145" />
-    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2" timestamp="1587621200582">
+    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2" timestamp="1587622209313">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587621200582" />
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1587588265700">
+    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587622209313" />
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1587674163489">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587588265700" />
-    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1587588265699">
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587674163489" />
+    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1587674163488">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587588265699" />
-    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1587588265699">
+    <state width="1398" height="216" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587674163488" />
+    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1587674163487">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587588265699" />
-    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1587588265700">
+    <state width="1398" height="216" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587674163487" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1587674163488">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587588265700" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587674163488" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1587041547128">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -363,10 +364,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587550841478" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587621203003">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587622211155">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587621203003" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587622211155" />
+    <state x="88" y="62" key="new project wizard" timestamp="1587674023078">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="88" y="62" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1587674023078" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587032600773">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

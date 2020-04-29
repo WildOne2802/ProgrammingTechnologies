@@ -108,7 +108,8 @@ public class Main {
 //        MyCategory cat = MyCategory.FOOD;
 //        System.out.println(cat);
 
-        CatalogFileLoader catalogFileLoader = new CatalogFileLoader("/Users/napenshe/IdeaProjects/ProgrammingTechnologies/src/Lab2_Lab3_Lab4/ru/billing/client/items.lst");
+        CatalogFileLoader catalogFileLoader =
+                new CatalogFileLoader("/Users/napenshe/IdeaProjects/ProgrammingTechnologies/src/Lab2_Lab3_Lab4_Lab6/ru/billing/client/items.lst");
         try {
             catalogFileLoader.load(catalog);
         } catch (CatalogLoadException e) {
