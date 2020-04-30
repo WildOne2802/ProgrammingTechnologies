@@ -13,6 +13,7 @@ public class U1901Thread extends Thread {
 
     public void run() {
         bankWork.calc(intTrans, lngSleep);
+//        bankWork.calc2(intTrans, lngSleep);
     }
 
 }

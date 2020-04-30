@@ -27,7 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="09d650d2-0acb-406b-8365-2bde21e2ec11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/CatalogLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/ru/billing/exceptions/CatalogLoadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2_Lab3_Lab4_Lab6/sync/U1901Thread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.U1901Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2_Lab3_Lab4_Lab6.ru.billing.client.Main" />
       <module name="ProgrammingTechnologies" />
@@ -167,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.U1901Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.U0901WorkArray" />
         <item itemvalue="Application.U0901Main" />
         <item itemvalue="Application.Main" />
@@ -188,7 +190,7 @@
       <workItem from="1587030685951" duration="7575000" />
       <workItem from="1587542567935" duration="11207000" />
       <workItem from="1588152234063" duration="1348000" />
-      <workItem from="1588239692633" duration="1143000" />
+      <workItem from="1588239692633" duration="7069000" />
     </task>
     <task id="LOCAL-00001" summary="Exceptions">
       <created>1587033188506</created>
@@ -288,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588152343139</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="IO Threads">
+      <created>1588241373405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588241373405</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -329,26 +338,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587551015145" />
-    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2" timestamp="1588152342897">
+    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2" timestamp="1588241373218">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588152342897" />
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom" timestamp="1588170079279">
+    <state x="253" y="23" width="967" height="828" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588241373218" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1588252106452">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588170079279" />
-    <state width="1398" height="215" key="GridCell.Tab.0.center" timestamp="1588170079277">
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588252106452" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1588250115420" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1588252106450">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588170079277" />
-    <state width="1398" height="215" key="GridCell.Tab.0.left" timestamp="1588170079272">
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588252106450" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1588250115418" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1588252106449">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588170079272" />
-    <state width="1398" height="215" key="GridCell.Tab.0.right" timestamp="1588170079278">
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588252106449" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1588250115417" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1588252106451">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="215" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588170079278" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588252106451" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1588250115419" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1587041547128">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -373,10 +386,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587550841478" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588152344842">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588241374804">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588152344842" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588241374804" />
     <state x="88" y="62" key="new project wizard" timestamp="1587674023078">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
