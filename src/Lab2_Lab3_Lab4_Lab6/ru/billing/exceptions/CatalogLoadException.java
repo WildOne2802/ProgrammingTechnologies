@@ -4,12 +4,9 @@ import java.io.FileNotFoundException;
 
 public class CatalogLoadException extends Exception {
 
-    public CatalogLoadException() {
-    }
+    public CatalogLoadException() { }
 
-    public CatalogLoadException(ItemAlreadyExistsException e) {
-    }
+    public CatalogLoadException(ItemAlreadyExistsException e) { }
 
-    public CatalogLoadException(FileNotFoundException e) {
-    }
+    public CatalogLoadException(FileNotFoundException e) { }
 }
