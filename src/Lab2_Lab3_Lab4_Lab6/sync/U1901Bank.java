@@ -4,31 +4,34 @@ public class U1901Bank {
     private volatile int intTo;
     private volatile int intFrom = 220;
 
+    public void calc(int intTransaction, long lngTimeout) {
+        synchronized (U1901Bank.class) {
+            System.out.println("[1] [ Before ]\tThread: " + Thread.currentThread().getName() + "\tintFrom: " + intFrom + "\tintTo: " + intTo);
+            intFrom -= intTransaction;
+            try {
+                Thread.sleep(lngTimeout);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            intTo += intTransaction;
 
-    public synchronized void calc(int intTransaction, long lngTimeout) {
-        System.out.println("[1] [ Before ]\tThread: " + Thread.currentThread().getName() + "\tintFrom: " + intFrom + "\tintTo: " + intTo);
-        intFrom -= intTransaction;
-        try {
-            Thread.sleep(lngTimeout);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+            System.out.println("[1] [ After ]\tThread: " + Thread.currentThread().getName() + "\tintFrom: " + intFrom + "\tintTo: " + intTo);
         }
-        intTo += intTransaction;
-
-        System.out.println("[1] [ After ]\tThread: " + Thread.currentThread().getName() + "\tintFrom: " + intFrom + "\tintTo: " + intTo);
     }
 
-    public synchronized void calc2(int intTransaction, long lngTimeout) {
-        System.out.println("[2] [ Before ]\tThread: " + Thread.currentThread().getName() + "\tintFrom: " + intFrom + "\tintTo: " + intTo);
-        intFrom -= intTransaction;
-        try {
-            Thread.sleep(lngTimeout);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        intTo += intTransaction;
+    public void calc2(int intTransaction, long lngTimeout) {
+        synchronized (U1901Bank.class) {
+            System.out.println("[2] [ Before ]\tThread: " + Thread.currentThread().getName() + "\tintFrom: " + intFrom + "\tintTo: " + intTo);
+            intFrom -= intTransaction;
+            try {
+                Thread.sleep(lngTimeout);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            intTo += intTransaction;
 
-        System.out.println("[2] [ After ]\tThread: " + Thread.currentThread().getName() + "\tintFrom: " + intFrom + "\tintTo: " + intTo);
+            System.out.println("[2] [ After ]\tThread: " + Thread.currentThread().getName() + "\tintFrom: " + intFrom + "\tintTo: " + intTo);
+        }
     }
 
 }
