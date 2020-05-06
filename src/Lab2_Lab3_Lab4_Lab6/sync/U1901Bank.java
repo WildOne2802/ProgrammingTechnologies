@@ -1,8 +1,8 @@
 package Lab2_Lab3_Lab4_Lab6.sync;
 
 public class U1901Bank {
-    private volatile int intTo;
-    private volatile int intFrom = 220;
+    private static int intTo;
+    private static int intFrom = 220;
 
     public void calc(int intTransaction, long lngTimeout) {
         synchronized (U1901Bank.class) {
